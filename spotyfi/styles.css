@@ -1,0 +1,32 @@
+.contenedor {
+    min-height: 600px;
+    background: linear-gradient(90deg,#c074b2,#8ab5e8);
+}
+
+.contenedor .izquierda .texto {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-weight: 700;
+    width: 80%;
+}
+
+.contenedor .izquierda .texto .pequeno {
+    font-size: 13px;
+}
+
+.contenedor .izquierda .texto .grande {
+    font-size: 80px;
+    line-height: 110px;
+}
+
+.contenedor .izquierda .texto .mediano {
+    font-size: 22px;
+}
+
+.contenedor .derecha {
+    height: 600px;
+}
+
+.contenedor .derecha img {
+    width: 237px;
+}

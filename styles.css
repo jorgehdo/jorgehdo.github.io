@@ -1,0 +1,162 @@
+
+.home a {
+
+ 	font-size: 14px;
+}
+
+.presentation {
+  background-image: url(./luna.png);
+
+  background-attachment: fixed;
+}
+.presentationtext img:hover {
+  filter: blur(6px);
+}
+.imagen {
+  width: 200px;
+  height: 200px;
+  border-radius: 35%;
+  box-shadow: 2px 2px 5px #999;
+  opacity: 0.7;
+  margin-bottom: 20px;
+}
+.title {
+  color: #FFFFFF;
+  font-size: 50px;
+}
+.title:hover {
+ color: #80C6C7;
+}
+.title2{
+  color: #80C6C7;
+  font-family: robotoregular,Arial,sans-serif;
+}
+.title2:hover {
+ color: #FFFFFF;
+}
+.presentationtext{
+  height: 600px;
+}
+.barner2 {
+  background-color: #80C6C7;
+  font-size: 18px;
+}
+.whiteh1 {
+  color: #FFFFFF;
+  font-weight: 600;
+}
+.parrafo2 {
+  color: #FFFFFF;
+
+}
+
+.title_white {
+  font-size: 30px;
+  font-weight: 600;
+}
+.para_gray {
+  font-family: robotoregular,Arial,sans-serif;
+  color: #999;
+  font-size: 16px;
+}
+.icon h5 {
+  background: #17202A;
+  width: 40px;
+  height: 40px;
+  color: #FFFFFF;
+  margin-left: 155px;
+  border-radius: 25px;
+}
+.barner4 {
+  
+  background-color: #EA814A;
+}
+.barner5 {
+  background-color: rgba(0,0,0,0.8);
+ background-image: url(./img_ciudad.jpg);
+ filter:brightness(0.7);
+
+ background-size: cover;
+ background-attachment: fixed;
+}
+.barner5 img {
+  height: 100px;
+  width: 150px;
+}
+.line_1 .imagen_1 {
+  background-color: #152338;
+  border-radius: 15px;
+  opacity: 0.8;
+}
+.line_1 .imagen_2 {
+  background-color: #FFFFFF;
+  border-radius: 15px;
+  opacity: 0.8;
+}
+.line_1 .imagen_3 {
+  background-color: #11A3BA;
+  border-radius: 15px;
+  opacity: 0.8;
+}
+.line_2 .imagen_1 {
+  background-color: #F5F4F5;
+  border-radius: 15px;
+  opacity: 0.8;
+}
+.line_2 .imagen_2 {
+  background-color: #F1322B;
+  border-radius: 15px;
+  opacity: 0.8;
+}
+.line_2 .imagen_3 {
+  border-radius: 15px;
+  opacity: 0.9;
+}
+.line_3 .imagen_1 {
+  background-color: #FFFFFF;
+  border-radius: 10px;
+  opacity: 0.8;
+}
+.line_3 .imagen_2 {
+  opacity: 0.7;
+}
+.line_3 .imagen_3 {
+  background-color: #4AB387;
+  border-radius: 15px;
+  opacity: 0.8;
+}
+.line_4 .imagen_1 {
+  background-color: #FFFFFF;
+  border-radius: 15px;
+  opacity: 0.8;
+}
+.line_4 .imagen_2 {
+  background-color: #FFFFFF;
+  border-radius: 15px;
+  opacity: 0.8;
+}
+
+.barner5 img{
+-webkit-transition: all 1s ease;
+-moz-transition: all 1s ease;
+-ms-transition: all 1s ease;
+transition: all 1s ease;
+}
+.barner5 img:hover {
+height: 133px;
+width: 230px;
+margin-left: -50px;
+}
+.barner6 {
+  
+  background-color: #9CBE5D;
+}
+.icons i {
+  background: #17202A;
+  width: 30px;
+  height: 30px;
+  color: #FFFFFF;
+  border-radius: 25px;
+  padding-top: 7px;
+}
+

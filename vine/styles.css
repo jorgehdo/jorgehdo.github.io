@@ -1,0 +1,97 @@
+body {
+  background-color: #54BB92;
+}
+
+.contenedor .imagen {
+  width: 300px;
+  height: 119px;
+
+}
+
+p{
+  color: white;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 24px;
+
+    font-weight: 300;
+    line-height: 1.5;
+
+
+}
+
+span {
+  background-color: white;
+  color: #00bf8f;
+  font-weight: 400;
+  padding-left: 2px;
+    padding-right: 2px;
+}
+
+
+
+
+
+.contenedor .azul  {
+  background-color: #5082e5;
+  width: 228px;
+  height: 110px;
+  box-shadow: 15px 15px white;
+  color: #fff;
+  line-height: 110px;
+
+}
+
+.contenedor .azul-claro  {
+  background-color: #6db0f2;
+  width: 228px;
+  height: 110px;
+  box-shadow: 15px 15px white;
+  color: #fff;
+  line-height: 110px;
+
+}
+
+.contenedor .verde  {
+  background-color: #33ccbf;
+  width: 228px;
+  height: 110px;
+  box-shadow: 15px 15px white;
+  color: #fff;
+  line-height: 110px;
+
+
+}
+.contenedor .verde-claro  {
+  background-color: #47f4a9;
+  width: 228px;
+  height: 110px;
+  box-shadow: 15px 15px white;
+  color: #fff;
+  line-height: 110px;
+
+
+}
+
+.contenedor2-row h2 {
+  font-size: 48px;
+  font-weight: 600;
+}
+
+h2:hover {
+  text-decoration: none;
+  color: white;
+}
+
+.years:hover {
+  box-shadow: none;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+
+
+
+
+
+
+

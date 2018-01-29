@@ -1,0 +1,75 @@
+body {
+
+}
+
+.contenedor {
+  background-image: url("./CO-es-20171106-popsignuptwoweeks-perspective_alpha_website_small.jpg") ;
+  background-size: cover;
+  height: 800px;
+  color: white;
+  font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
+  -webkit-font-smoothing: antialiased;
+-webkit-box-shadow: inset 200px 5px 252px 86px rgba(0,0,0,0.88);
+-moz-box-shadow: inset 200px 5px 252px 86px rgba(0,0,0,0.88);
+box-shadow: inset 200px 5px 252px 86px rgba(0,0,0,0.88);
+
+}
+
+.contenedor img {
+      width: 170px;
+    height: 85px;
+    margin-left: 20px;
+    fill: #e50914;
+
+}
+
+.contenedor h1 {
+  font-size: 4.5em;
+  font-weight: 700;
+  padding-top: 100px;
+    margin-top: 100px;
+    margin-left: 15px;
+
+}
+
+.contenedor p {
+  font-size: 25px;
+  letter-spacing: .2px;
+  padding-top: 5px;
+    margin-left: 10px;
+    padding-left: 8px;
+
+}
+
+
+.contenedor .boton-uno {
+  background-color: #F30713;
+  color: #fff;
+  font-size: 14.5px;
+  letter-spacing: 1.9px;
+  vertical-align: middle;
+  border: 0;
+  margin-left: 18px;
+}
+
+.contenedor .boton-dos {
+  color: #fff;
+    background-color: #e50914;
+    font-weight: 400;
+
+    border-radius: 3px;
+    font-size: 16px;
+
+        margin-top: 14px;
+    margin-right: -10;
+    margin-left: 1px;
+    padding-bottom: 3px;
+    padding-top: 4px;
+    margin-right: 25px;
+        padding-right: 15px;
+    padding-left: 15px;
+}
+
+.contenedor2 {
+      right: 25px;
+}
