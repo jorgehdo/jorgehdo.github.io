@@ -4,40 +4,66 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
+    <link  rel = "icon"  type = "image / png"  sizes = "96x96"  href = "./favicon-96x96.png" >
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
     <link rel="stylesheet" href="./styles.css">
 
-    <title>Portfolio Jorge!</title>
+    <title>Portfolio Jorgee!</title>
   </head>
   <body>
 
   <div class="container-fluid presentation">
     <div id="inicio" class="row">
+      <nav class=" pt-4 pb-4 home d-none d-lg-flex justify-content-center navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <a class="col-sm-2" target="_blank" href="https://github.com/jorgehdo">JORGEHDO</a>
+        <a class="col-sm-1" href="#inicio">INICIO</a>
+        <a class="col-sm-1 text-center" href="#sobremi">SOBRE MI</a>
+        <a class="col-sm-1" href="#contacto">CONTACTO</a>    
+        <a class="col-sm-1" href="#portfolio">PORTFOLIO</a>
+        <a class="col-sm-1" href="#estudios">ESTUDIOS</a>
+      </nav>
+      <nav class="navbar navbar-dark bg-dark d-block d-lg-none fixed-top">
+        <a class="navbar-brand" href="#">MENU</a>
+        <button class="navbar-toggler float-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
 
-      <nav class=" pt-3 pb-3 home d-flex justify-content-center navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-
-      <a class="col-sm-2 navbar-brand" href="#">JORGEHDO</a>
-      
-      <a class="col-sm-1 navbar-brand" href="#inicio">INICIO</a>
-      
-      <a class="col-sm-1 navbar-brand" href="#whiteh1">SOBRE MI</a>
-      
-      <a class="col-sm-1 navbar-brand" href="#information">INFORMACION</a>
-      
-      <a class="col-sm-1 navbar-brand" href="#">PORTFOLIO</a>
-      
-      <a class="col-sm-1 navbar-brand" href="#">CONTACTO</a>
-    </nav>
-  </div>
+        <div class="collapse navbar-collapse home" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto ">
+            <li>
+              <a target="_blank" href="https://github.com/jorgehdo">JORGEHDO</a>
+            </li>
+            <li>
+              <a href="#inicio">INICIO</a>
+            </li>
+            <li>
+              <a href="#sobremi">SOBRE MI</a>
+            </li>
+            <li>
+              <a href="#contacto">CONTACTO</a>
+            </li>
+            <li>
+              <a href="#portfolio">PORTFOLIO</a>
+            </li>
+            <li>
+              <a href="#estudios">ESTUDIOS</a>
+            </li>
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+          </form>
+        </div>
+      </nav>
+    </div>
     <div class="row presentationtext pt-5 d-flex flex-column justify-content-center align-items-center">
-      <img class="text-center imagen mt-5" src="_TNR7601.jpg">
+      <img class="text-center imagen mt-5" src="/Users/jorgeespinosa/Documents/jorgehdo.github.io/image/yo.jpg">
       <h1 class="title" >Web Developer</h1>
       <p class="title2">Soy un Autonomo/Freelance con Talento y experiencia</p>
     </div>
   </div>
-    <div class="container-fluid barner2">
+    <div id="sobremi" class="container-fluid barner2">
       <div class="row d-flex justify-content-center align-items-center " >
         <h1 class=" col-12 whiteh1 pt-4 text-center"><i class="fa fa-umbrella" aria-hidden="true"></i>&nbsp;/ SOBRE MI</h1> <!-- con esto = &nbsp; se saca un espacio -->
         <p class="parrafo2 col-10">Me llamo <b>Jorge Espinosa</b> vivo en Barranquilla (Colombia), durante mis años de experiencia he realizado funciones de programacion, he trabajo con algunos lenguajes de programacion como <b>HTML, CSS, JAVASCRPIT, RUBY,</b> conocimientos en <b>Bootstrap</b>  </p>
@@ -45,7 +71,7 @@
     </div>
 
     
-    <div class="container-fluid barner3">
+    <div id="contacto" class="container-fluid barner3">
       <div class="row title_2 pt-5 d-flex  justify-content-center align-items-center">
         <div class="col-12">
           <h1 class="title_white text-center"><i class="fa fa-search" aria-hidden="true"></i>&nbsp;&nbsp; INFORMACION DE CONTACTO</h1>
@@ -75,54 +101,52 @@
         </div>
       </div>
     </div>
-    <div class="container-fluid barner4 ">
-      <div class="row d-flex pt-5 pb-4 justify-content-center align-items-center">
-        
-          <h1 class="col-sm-12 pb-2 whiteh1 text-center"><i class="fa fa-camera" aria-hidden="true"></i>&nbsp;/ PORTFOLIO</h1>
-          <p class="col-sm-12 parrafo2 text-center">Algunos ejemplos de Trabajos Realizados</p>
-        
+    <div id="portfolio" class="container-fluid barner4 ">
+      <div  class="row d-flex pt-5 pb-4 justify-content-center align-items-center">
+        <h1 class="col-sm-12 pb-2 whiteh1 text-center"><i class="fa fa-camera" aria-hidden="true"></i>&nbsp;/ PORTFOLIO</h1>
+        <p class="col-sm-12 parrafo2 text-center">Algunos ejemplos de Trabajos Realizados</p>
       </div>
     </div>
     <div class="container-fluid barner5">
       <div class="row line_1 d-flex justify-content-center">
         <div class="imagen-left  pt-5 text-center col-md-3">
-          <a href="#"> <img class="imagen_1 w-40" src="logo_nocircle.svg"> </a>
+          <a target="_blank" href="./typescript/index.html"> <img class="imagen_1 w-40" src="./image/logo_nocircle.svg"> </a>
         </div>
         <div class="imagen-center pt-5 text-center col-md-3">
-          <a href="#"> <img class="imagen_2 w-45" src="vueJs.png"> </a>
+          <a target="_blank" href="./vueJs/index3.html"> <img class="imagen_2 w-45" src="./image/vueJs.png"></a>
         </div>
         <div class="imagen-right pt-5 text-center col-md-3">
-          <a href="#"> <img class="imagen_3 w-60" src="hero_.png"> </a>
+          <a target="_blank" href="./SailsJS/index.html"> <img class="imagen_3 w-60" src="./image/hero_.png"></a>
         </div>
       </div>
       <div class="row line_2 d-flex justify-content-center">
         <div class="imagen-left pt-5 text-center col-md-3">
-          <a href="#"> <img class="imagen_1 w-40" src="logo-b6e1ef6e.svg"> </a>
+          <a target="_blank" href="./sass/index.html"> <img class="imagen_1 w-40" src="./image/logo-b6e1ef6e.svg"></a>
         </div>
         <div class="imagen-center pt-5 text-center col-md-3">
-          <a href="#"> <img class="imagen_2 w-40" src="angular-logo.svg"> </a>
+          <a target="_blank" href="./angular/index.html"> <img class="imagen_2 w-40" src="./image/angular-logo.svg"> </a>
         </div>
         <div class="imagen-right pt-5 text-center col-md-3">
-          <a href="#"> <img class="imagen_3 w-60" src="logo_spotify.jpg"> </a>
+          <a target="_blank" href="./spotyfi/index.html"> <img class="imagen_3 w-60" src="./image/logo_spotify.jpg"> </a>
         </div>
       </div>
       <div class="row line_3 d-flex justify-content-center">
         <div class="imagen-left pt-5 text-center col-md-3">
-          <a href="#"> <img class="imagen_1 w-40 pb-4" src="netflix.png"> </a>
+          <a target="_blank" href="./netflix/index.html"> <img class="imagen_1 w-40 pb-4" src="./image/netflix.png"> </a>
         </div>
         <div class="imagen-center pt-5 text-center col-md-3">
-          <a href="#"> <img class="imagen_2 w-40" src="img_snap.png"> </a>
+          <a target="_blank" href="./snap/index.html"> <img class="imagen_2 w-40" src="./image/img_snap.png"> </a>
         </div>
         <div class="imagen-right pt-5 text-center col-md-3">
-          <a href="#"> <img class="imagen_3 w-60" src="vine_logo_white.svg"> </a>
+          <a target="_blank" href="./vine/index.html"> <img class="imagen_3 w-60" src="./image/vine_logo_white.svg"> </a>
         </div>
       </div>
       <div class="row pb-5 line_4 d-flex justify-content-center">
         <div class="imagen-left pt-5 text-center col-md-4">
-          <a href="#"> <img class="imagen_1 w-40" src="rails-logo.svg"> </a>
+          <a target="_blank" href="./rails/index.html"> <img class="imagen_1 w-40" src="./image/rails-logo.svg"> </a>
         </div>
         <div class="imagen-center pt-5 text-center col-md-4">
-          <a href="#"> <img class="imagen_2 w-40 pt-2" src="instagram-1.svg"> </a>
+          <a target="_blank" href="./Instagram/index.html"> <img class="imagen_2 w-40 " src="./image/instagram-1.svg"> </a>
         </div>
       </div>
     </div>
@@ -132,7 +156,7 @@
         <p class="col-sm-12 parrafo2 text-center">Estudios, cursos y experiencia</p>
       </div>
     </div>
-    <div class="container-fluid barner7">
+    <div id="estudios" class="container-fluid barner7">
       <div class="row pt-5">
         <h1 class="col-sm-12 title_white text-center">MIS ESTUDIOS Y CURSOS</h1>
         <P class="col-sm-12 para_gray text-center">Mi experiencia, seguimos en formación.</P>
@@ -195,10 +219,17 @@
         </div>
       </div>
     </div>
-     <div class="container-fluid barner6 ">
-      <div class="row d-flex pt-5 pb-4 justify-content-center align-items-center">
-        <h1 class="col-sm-12 pb-2 whiteh1 text-center"><i class="fa fa-file-text-o" aria-hidden="true"></i>&nbsp;/ RESUMEN</h1>
-        <p class="col-sm-12 parrafo2 text-center">Estudios, cursos y experiencia</p>
+     <div class="container-fluid barner8">
+      <div class="final row pt-3 pb-3">
+        <div class="col-md-5 text-center">
+          <a class="para_gray" href="#inicio">Inicio</a>
+        </div>
+        <div class="col-md-4 text-center">
+          <a class="para_gray" target="_blank" href="https://github.com/jorgehdo">Jorgehdo</a>
+        </div>
+        <div class="col-md-3 text-center">
+          <a class="para_gray" href="mailto:jorgehdoespinosa@gmail.com">Contactarme</a>
+        </div>
       </div>
     </div>
 

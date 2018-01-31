@@ -1,12 +1,24 @@
+.home-2 {
+	
+	width:100%;
+}
 
 .home a {
-
- 	font-size: 14px;
+  font-size: 13px;
+  color: #FFFFFF;
+  font-family: robotobold,Arial,sans-serif;
+  transition-property: all;
+  transition-duration: 0.5s;
+  transition-timing-function: ease;
+  transition-delay: 0s;
+}
+.home a:hover {
+  color:  #999;
+  text-decoration: none;
 }
 
 .presentation {
-  background-image: url(./luna.png);
-
+  background-image: url(./image/luna.png);
   background-attachment: fixed;
 }
 .presentationtext img:hover {
@@ -19,10 +31,15 @@
   box-shadow: 2px 2px 5px #999;
   opacity: 0.7;
   margin-bottom: 20px;
+
 }
 .title {
   color: #FFFFFF;
   font-size: 50px;
+  transition-property: all;
+  transition-duration: 0.5s;
+  transition-timing-function: ease;
+  transition-delay: 0s;
 }
 .title:hover {
  color: #80C6C7;
@@ -30,6 +47,10 @@
 .title2{
   color: #80C6C7;
   font-family: robotoregular,Arial,sans-serif;
+  transition-property: all;
+  transition-duration: 0.5s;
+  transition-timing-function: ease;
+  transition-delay: 0s;
 }
 .title2:hover {
  color: #FFFFFF;
@@ -45,6 +66,7 @@
   color: #FFFFFF;
   font-weight: 600;
 }
+
 .parrafo2 {
   color: #FFFFFF;
 
@@ -73,7 +95,7 @@
 }
 .barner5 {
   background-color: rgba(0,0,0,0.8);
- background-image: url(./img_ciudad.jpg);
+ background-image: url(./image/img_ciudad.jpg);
  filter:brightness(0.7);
 
  background-size: cover;
@@ -158,5 +180,18 @@ margin-left: -50px;
   color: #FFFFFF;
   border-radius: 25px;
   padding-top: 7px;
+}
+.barner8 {
+  background-color: #2E3338;	
+}
+.final a{
+ transition-property: all;
+ transition-duration: 0.5s;
+ transition-timing-function: ease;
+ transition-delay: 0s;
+}
+.final a:hover {
+  color: #FFFFFF;
+  text-decoration: none;
 }
 
