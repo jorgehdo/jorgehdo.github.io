@@ -11,6 +11,7 @@
   transition-duration: 0.5s;
   transition-timing-function: ease;
   transition-delay: 0s;
+  font-weight: 600;
 }
 .home a:hover {
   color:  #999;
@@ -51,6 +52,8 @@
   transition-duration: 0.5s;
   transition-timing-function: ease;
   transition-delay: 0s;
+  font-size: 20px;
+  
 }
 .title2:hover {
  color: #FFFFFF;
@@ -188,6 +191,7 @@ margin-left: -50px;
  transition-duration: 0.5s;
  transition-timing-function: ease;
  transition-delay: 0s;
+ font-weight:600;
 }
 .final a:hover {
   color: #FFFFFF;
